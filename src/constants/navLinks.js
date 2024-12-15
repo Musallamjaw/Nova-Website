@@ -1,5 +1,5 @@
 export const navLinks = [
-  { path: "/", label: "الصفحة الرئيسية" },
-  { path: "/aboutUs", label: "من نحن" },
-  { path: "/contactUs", label: "تواصل معنا" },
+  { path: "/", label: "Home" },
+  { path: "/aboutUs", label: "About Us" },
+  { path: "/contactUs", label: "Contact Us" },
 ];

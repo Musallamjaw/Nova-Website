@@ -1,23 +1,23 @@
 const HowWeWorkSection = () => {
   const steps = [
     {
-      title: 'البحث والتخطيط',
-      description: 'نجمع المعلومات حول أهداف المشروع ومتطلبات العميل، ونضع خطة تفصيلية تشمل خطوات التنفيذ والجداول الزمنية لتحقيق أفضل النتائج.',
+      title: 'Research and Planning',
+      description: 'We gather information about the project goals and client requirements and develop a detailed plan that includes execution steps and timelines to achieve the best results.',
       background: 'bg-req'
     },
     {
-      title: 'اختيار التصميم',
-      description: 'نقوم بعرض عدة تصاميم على العميل ومنها يختار ما يناسبه مع إمكانية التعديل على أي تفصيل بما يلزم أو كما يريد العميل.',
+      title: 'Design Selection',
+      description: 'We present several designs to the client, from which they can choose what suits them, with the option to modify any details as needed or desired by the client.',
       background: 'bg-des'
     },
     {
-      title: 'التطوير',
-      description: 'نبني موقعك باستخدام أحدث التقنيات واللغات البرمجية مثل React وTailwind CSS، مع التركيز على الأداء العالي وسهولة الاستخدام.',
+      title: 'Development',
+      description: 'We build your website using the latest technologies and programming languages such as React and Tailwind CSS, focusing on high performance and ease of use.',
       background: 'bg-dev'
     },
     {
-      title: 'الإطلاق',
-      description: 'ننشر الموقع على الخوادم المناسبة، ونتأكد من توافقه مع مختلف الأجهزة والمتصفحات، مع توفير دعم فني مستمر لتحديثات وتحسينات مستقبلية.',
+      title: 'Launch',
+      description: 'We deploy the website on appropriate servers, ensuring compatibility with different devices and browsers, while providing ongoing technical support for future updates and improvements.',
       background: 'bg-lunch'
     }
   ];
@@ -25,9 +25,11 @@ const HowWeWorkSection = () => {
   return (
     <section id="how-we-work" className="py-16">
       <div className="max-w-[1400px] mx-auto px-6 text-center items-center">
-        <h2 className="text-4xl font-black text-my-color mt-16">كيف نعمل</h2>
+        <h2 className="text-4xl font-black text-thi-color mt-16">How We Work</h2>
         <div className="flex items-center justify-center">
-          <p className="mb-16 mt-6 py-1 text-sm px-5 rounded-md bg-my-color flex w-fit text-white">هذه الخطوات نعمل عليها مع كل مشروع للحفاظ على الجودة</p>
+          <p className="mb-16 mt-6 py-1 text-sm px-5 rounded-md bg-my-color flex w-fit text-white">
+            These are the steps we follow for every project to maintain quality.
+          </p>
         </div>
         <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-8">
           {steps.map((step, index) => (
@@ -43,7 +45,7 @@ const HowWeWorkSection = () => {
 
                 <div className="relative flex justify-center items-center w-full h-full rounded-xl">
                   <div className={`absolute w-full h-full rounded-xl ${step.background} bg-cover bg-center`}></div>
-                  <div className=" absolute w-full h-full bg-my-color bg-opacity-70 rounded-xl"></div>
+                  <div className=" absolute w-full h-full bg-thi-color bg-opacity-70 rounded-xl"></div>
                   <p className="z-10 ">{step.title}</p>
                 </div>
               </div>
@@ -54,7 +56,7 @@ const HowWeWorkSection = () => {
 
                 <div className="relative flex justify-center items-center w-full h-full p-3 text-white rounded-xl overflow-hidden">
                   <div className={`absolute w-full h-full rounded-xl ${step.background} bg-cover bg-center blur-[5px]`}></div>
-                  <div className=" absolute w-full h-full bg-my-color bg-opacity-80 rounded-xl"></div>
+                  <div className=" absolute w-full h-full bg-thi-color bg-opacity-80 rounded-xl"></div>
                   <p className="z-10 ">{step.description}</p>
                 </div>
               </div>

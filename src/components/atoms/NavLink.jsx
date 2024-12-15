@@ -5,13 +5,13 @@ import { navLinks } from "../../constants/navLinks";
 const NavLinks = ({ linksLayout, bgColor, handleNavButton }) => {
 
   const linkStyle =
-    linksLayout === "halfPage" ? 'group-hover:ml-4' : 'font-semibold'
+    linksLayout === "halfPage" ? 'group-hover:ml-4' : ''
 
   const linkColor =
     bgColor === "light" ?
       'text-my-color hover:text-[#F2A227]'
       :
-      'text-white hover:text-[#F2A227] font-bold'
+      'text-my-color hover:text-sec-color font-bold'
   return (
     <>
       {navLinks.map((link, index) => (
@@ -19,7 +19,7 @@ const NavLinks = ({ linksLayout, bgColor, handleNavButton }) => {
             <NavLink
               to={link.path}
               onClick={handleNavButton}
-              className={`text-base font-extrabold ${linkStyle} ${linkColor} transition-all duration-500`}
+              className={`text-lg ${linkStyle} ${linkColor} transition-all duration-500`}
             >
               {link.label}
             </NavLink>

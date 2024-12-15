@@ -5,30 +5,30 @@ import coreIcon4 from '../assets/images/coreimage/2600314.png'
 const values = [
   {
     imgSrc: coreIcon4,
-    title: "الإبداع",
+    title: "Continuous Innovation",
     description:
-      "الابتكار هو جوهر عملنا. نعمل على إيجاد حلول فريدة ومبتكرة تلبي احتياجات العملاء وتساعدهم على التميز في عالم رقمي متغير.",
-      additionalClasses: '2md:border-l border-b',
+      "Staying ahead with the latest design technologies, we strive to bring fresh, cutting-edge solutions to every project. By constantly evolving our techniques and staying updated with industry trends, we ensure that our clients receive creative solutions that keep them competitive and relevant in their fields.",
+      additionalClasses: '2md:border-r border-b',
   },
   {
     imgSrc: coreIcon3,
-    title: "الجودة العالية",
+    title: "Quality Commitment",
     description:
-      "نلتزم بتقديم خدمات ومنتجات تتسم بالاحترافية والإتقان، حيث نولي اهتمامًا لأدق التفاصيل لضمان رضا العملاء التام.",
-      additionalClasses: 'border-b',
+    "Delivering services that exceed expectations is at the heart of what we do. We focus on attention to detail, precision, and excellence in every project, ensuring a final product that not only meets but surpasses client aspirations. Our dedication to high standards builds trust and long-lasting relationships.",
+    additionalClasses: 'border-b',
   },
   {
     imgSrc: coreIcon2,
-    title: "الالتزام بالمواعيد",
+    title: "Client Empowerment",
     description:
-      "احترام الوقت جزء أساسي من قيمنا. نحن ندرك أهمية الالتزام بالمواعيد لضمان سير العمل بكفاءة وتحقيق الأهداف المحددة.",
-      additionalClasses: '2md:border-l border-b 2md:border-b-0',
+      "Building partnerships that drive the success of small businesses is our priority. We aim to empower our clients by understanding their unique needs and delivering tools, strategies, and designs that help them thrive. By fostering collaboration and transparency, we enable clients to achieve their goals and unlock new opportunities.",
+      additionalClasses: '2md:border-r border-b 2md:border-b-0',
   },
   {
     imgSrc: coreIcon1,
-    title: "التركيز على احتياجات العميل",
+    title: "Dedicated Support",
     description:
-      "نجاح عملائنا هو نجاحنا. نسعى دائمًا لفهم متطلباتهم بدقة وتقديم حلول تتجاوز توقعاتهم.",
+      "Offering comprehensive solutions at every stage, we are committed to being a reliable partner throughout the journey. From the initial concept to the final delivery, our team provides personalized guidance, timely assistance, and practical strategies to ensure the success of every project.",
   },
 ];
 

@@ -5,30 +5,30 @@ import skill4 from '../assets/images/ourSkills/icons-03.png'
 const featuresData = [
   {
     imgSrc: skill1,
-    title: 'أداء سريع',
+    title: 'Fast Performance',
     description:
-      'نستخدم تقنيات متقدمة لضمان أداء سريع وفعال، مما يتيح لمستخدمي مواقعنا تجربة سلسة وخالية من التأخير.',
-    additionalClasses: '2md:border-l border-b xl:border-b-0',
+      'We use advanced technologies to ensure fast and efficient performance, providing users with a smooth and delay-free experience.',
+    additionalClasses: '2md:border-r border-b xl:border-b-0',
   },
   {
     imgSrc: skill2,
-    title: 'تصميم متجاوب',
+    title: 'Responsive Design',
     description:
-      'تصاميمنا مُحسَّنة ومتجاوبة مع جميع الأجهزة، مما يضمن تجربة سلسة على الهواتف، والأجهزة اللوحية، وأجهزة الكمبيوتر المكتبية.',
-    additionalClasses: 'xl:border-l border-b',
+      'Our designs are optimized and responsive across all devices, ensuring a seamless experience on phones, tablets, and desktop computers.',
+    additionalClasses: 'xl:border-r border-b',
   },
   {
     imgSrc: skill3,
-    title: 'سهولة الاستخدام',
+    title: 'Ease of Use',
     description:
-      'تصميم مواقعنا يركز على سهولة الاستخدام، لضمان تجربة مريحة وبديهية لجميع المستخدمين بمختلف احتياجاتهم وأجهزتهم.',
-    additionalClasses: '2md:border-l border-b 2md:border-b-0',
+      'Our website designs focus on ease of use, ensuring a comfortable and intuitive experience for all users, regardless of their needs and devices.',
+    additionalClasses: '2md:border-r border-b 2md:border-b-0',
   },
   {
     imgSrc: skill4,
-    title: 'تصاميم جذابة وعصرية',
+    title: 'Attractive and Modern Designs',
     description:
-      'نحرص على تقديم تصاميم مبتكرة تجمع بين الجمال والبساطة، لتضفي طابعًا مميزًا على مشاريعك وتترك انطباعًا يدوم.',
+      'We strive to deliver innovative designs that combine beauty and simplicity, giving your projects a unique touch and leaving a lasting impression.',
     additionalClasses: '',
   },
 ];

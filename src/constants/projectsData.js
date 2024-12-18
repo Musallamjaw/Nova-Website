@@ -6,8 +6,8 @@ import cosPc from '../assets/images/projectsImage/cos1.png'
 import cosMop from '../assets/images/projectsImage/cos2.png'
 import noimagePc from '../assets/images/projectsImage/noimage1.jpg'
 import noimageMop from '../assets/images/projectsImage/noimage2.jpg'
-import novaPc from '../assets/images/projectsImage/novaPc.jpg'
-import novamob from '../assets/images/projectsImage/novamob.jpg' 
+import novaPc from '../assets/images/projectsImage/novaPc.png'
+import novamob from '../assets/images/projectsImage/novamob.png' 
 
 export const projectsData = [
   {

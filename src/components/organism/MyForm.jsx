@@ -23,7 +23,7 @@ const thiForm = () => {
         .send(
           'service_mcwc7jk',
           'template_th1hr9e',
-          values,              
+          values,
           'BOVE0Nx0zSc7tJed4'
         )
         .then(

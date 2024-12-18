@@ -6,6 +6,9 @@ import cosPc from '../assets/images/projectsImage/cos1.png'
 import cosMop from '../assets/images/projectsImage/cos2.png'
 import noimagePc from '../assets/images/projectsImage/noimage1.jpg'
 import noimageMop from '../assets/images/projectsImage/noimage2.jpg'
+import novaPc from '../assets/images/projectsImage/novaPc.png'
+import novamob from '../assets/images/projectsImage/novamob.png' 
+
 export const projectsData = [
   {
     id: 1,
@@ -27,6 +30,13 @@ export const projectsData = [
     imagePc: swPc,
     imageMop: swMop,
     link: 'https://sweet-spot-gamma.vercel.app/'
+  },
+  {
+    id: 4,
+    name: 'Nova Website',
+    imagePc: novaPc,
+    imageMop: novamob,
+    link: 'https://nova-one-eosin.vercel.app'
   },
   {
     id: 1000,

@@ -19,10 +19,11 @@ const router = createBrowserRouter([
     ],
   }
 ],
-  {
-    basename: "/Nova-Website/",
+  // {
+  //   basename: "/Nova-Website/",
 
-  });
+  // }
+  );
 
 export default function AppRouter() {
   return <RouterProvider router={router} />;

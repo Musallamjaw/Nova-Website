@@ -17,12 +17,12 @@ const router = createBrowserRouter([
       { path: "/aboutUs", element: <AboutUs /> },
       { path: "/contactUs", element: <Contact /> },
     ],
-  },
+  }
+],
   {
     basename: "/Nova-Website/",
 
-  }
-]);
+  });
 
 export default function AppRouter() {
   return <RouterProvider router={router} />;

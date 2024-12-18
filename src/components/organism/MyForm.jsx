@@ -9,8 +9,7 @@ const thiForm = () => {
     initialValues: {
       name: "",
       email: "",
-      company: "",
-      budget: "",
+      subject: "",
       projectDetails: "",
     },
     validationSchema: Yup.object({

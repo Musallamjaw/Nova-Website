@@ -18,6 +18,10 @@ const router = createBrowserRouter([
       { path: "/contactUs", element: <Contact /> },
     ],
   },
+  {
+    basename: "/Nova-Website/",
+
+  }
 ]);
 
 export default function AppRouter() {
